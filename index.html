@@ -34,6 +34,10 @@
   ul.no li span { display:block; color:var(--soft); font-weight:400; font-size:15px; }
   footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--soft); font-size:14px; }
   footer a { color:inherit; }
+  a.app { display:flex; align-items:center; gap:14px; background:var(--card); border-radius:20px; padding:16px 20px; color:inherit; text-decoration:none; }
+  a.app img { width:52px; height:52px; border-radius:12px; flex:none; }
+  a.app b { display:block; letter-spacing:-0.01em; }
+  a.app span { color:var(--soft); font-size:15px; }
 </style>
 </head>
 <body>
@@ -67,6 +71,12 @@
     <li>No tiene servidores ni cuentas<span>Todo lo que apuntas se queda en tu iPhone y funciona sin conexión.</span></li>
     <li>No lleva anuncios ni rastreadores<span>No te vende préstamos ni usa tus datos para nada.</span></li>
   </ul>
+
+  <h2>Más apps nuestras</h2>
+  <a class="app" href="https://apps.apple.com/es/app/buzzers-app/id6823972851">
+    <img src="buzzers.png" alt="" width="52" height="52">
+    <div><b>Buzzers</b><span>Partidos de baloncesto cerca de ti. Gratis en la App Store.</span></div>
+  </a>
 
   <footer>Mekeda · <a href="privacidad.html">Privacidad</a></footer>
 </main>
